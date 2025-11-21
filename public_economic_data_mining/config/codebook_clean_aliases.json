@@ -1,0 +1,202 @@
+{
+  "annual_peak_load_and_reserve": {
+    "title": "歷年尖峰負載與備用容量率（整理後）",
+    "path": "data_clean/annual_peak_load_and_reserve.csv",
+    "columns": {
+      "year": "西元年",
+      "peak_load_mw": "尖峰負載 (MW)",
+      "reserve_margin_pct": "備用容量率 (%)"
+    }
+  },
+  "current_year_daily_reserve_margin": {
+    "title": "本年度每日備轉資訊",
+    "path": "data_clean/current_year_daily_reserve_margin.csv",
+    "columns": {
+      "date": "日期",
+      "reserve_capacity_mw": "備轉容量 (MW)",
+      "reserve_margin_pct": "備轉容量率 (%)"
+    }
+  },
+  "three_year_daily_reserve_margin": {
+    "title": "近三年每日備轉資訊",
+    "path": "data_clean/three_year_daily_reserve_margin.csv",
+    "columns": {
+      "date": "日期",
+      "reserve_capacity_mw": "備轉容量 (MW)",
+      "reserve_margin_pct": "備轉容量率 (%)"
+    }
+  },
+  "electricity_sales_by_usage": {
+    "title": "用途別售電量（整理後）",
+    "path": "data_clean/electricity_sales_by_usage.csv",
+    "columns": {
+      "year": "年度",
+      "usage_category": "用途別",
+      "sales_kwh": "售電量 (kWh)"
+    }
+  },
+  "electricity_consumption_by_sector": {
+    "title": "部門別電力消費（月度）",
+    "path": "data_clean/electricity_consumption_by_sector.csv",
+    "columns": {
+      "period": "西元月份",
+      "year": "西元年",
+      "month": "月份",
+      "raw_period": "民國年月",
+      "total_mwh": "全國用電量 (MWh)",
+      "industrial_mwh": "工業用電 (MWh)",
+      "textile_apparel_mwh": "紡織成衣及服飾業 (MWh)",
+      "pulp_paper_mwh": "紙漿、紙及紙製品業 (MWh)",
+      "chemical_materials_mwh": "化學材料製造業 (MWh)",
+      "plastic_products_mwh": "塑膠製品製造業 (MWh)",
+      "nonmetal_minerals_mwh": "非金屬礦物製品製造業 (MWh)",
+      "basic_metals_mwh": "金屬基本工業 (MWh)",
+      "fabricated_metals_mwh": "金屬製品製造業 (MWh)",
+      "electronics_mwh": "電腦通信及視聽電子產品製造業 (MWh)",
+      "industrial_other_mwh": "其他工業 (MWh)",
+      "residential_commercial_mwh": "住商用電 (MWh)",
+      "residential_mwh": "住宅用電 (MWh)",
+      "service_sector_mwh": "服務業用電 (MWh)",
+      "wholesale_retail_mwh": "批發及零售業 (MWh)",
+      "accommodation_food_mwh": "住宿及餐飲業 (MWh)",
+      "transport_services_mwh": "運輸服務業 (MWh)",
+      "warehousing_mwh": "倉儲業 (MWh)",
+      "telecom_mwh": "通信業 (MWh)",
+      "finance_real_estate_mwh": "金融保險及不動產業 (MWh)",
+      "business_services_mwh": "工商服務業 (MWh)",
+      "social_personal_services_mwh": "社會服務及個人服務業 (MWh)",
+      "public_admin_mwh": "公共行政業 (MWh)",
+      "service_other_mwh": "其他服務業 (MWh)",
+      "transport_mwh": "運輸用電 (MWh)",
+      "road_mwh": "公路運輸 (MWh)",
+      "rail_mwh": "鐵路運輸 (MWh)",
+      "pipeline_mwh": "管線運輸 (MWh)",
+      "transport_other_mwh": "其他運輸 (MWh)",
+      "energy_sector_mwh": "能源部門自用 (MWh)",
+      "agriculture_mwh": "農業部門 (MWh)"
+    }
+  },
+  "generation_by_energy_type": {
+    "title": "能源別發/購電量",
+    "path": "data_clean/generation_by_energy_type.csv",
+    "columns": {
+      "year": "年度",
+      "producer_type": "發購電別",
+      "energy_type": "能源別",
+      "generation_kwh": "發購電量 (kWh)"
+    }
+  },
+  "generation_capacity_long": {
+    "title": "裝置容量（月度長表）",
+    "path": "data_clean/generation_capacity_long.csv",
+    "columns": {
+      "period": "西元月份",
+      "raw_period": "民國年月",
+      "owner_group": "擁有者分類",
+      "owner": "擁有者 (原始)",
+      "technology": "技術別",
+      "capacity_mw": "裝置容量 (MW)"
+    }
+  },
+  "generation_fuel_consumption_long": {
+    "title": "發電燃料耗用（月度長表）",
+    "path": "data_clean/generation_fuel_consumption_long.csv",
+    "columns": {
+      "period": "西元月份",
+      "raw_period": "民國年月",
+      "owner_group": "擁有者分類",
+      "owner": "擁有者 (原始)",
+      "fuel": "燃料別",
+      "consumption_units": "耗用量 (公噸油當量/10^7千卡)"
+    }
+  },
+  "generation_costs_by_technology": {
+    "title": "各發電方式單位成本",
+    "path": "data_clean/generation_costs_by_technology.csv",
+    "columns": {
+      "category": "主要類別",
+      "subcategory": "次類別",
+      "item": "項目",
+      "calendar_year": "年度",
+      "cost_ntd_per_kwh": "單位成本 (元/度)"
+    }
+  },
+  "nuclear_generation_performance": {
+    "title": "核能發電績效與減碳",
+    "path": "data_clean/nuclear_generation_performance.csv",
+    "columns": {
+      "roc_year": "民國年度",
+      "year": "西元年",
+      "generation_gwh": "核能發電量 (GWh)",
+      "capacity_factor_pct": "容量因數 (%)",
+      "co2_reduction_tonnes": "減碳量 (噸)"
+    }
+  },
+  "nuclear_facility_radiation": {
+    "title": "核設施輻射監測資料",
+    "path": "data_clean/nuclear_facility_radiation.csv",
+    "columns": {
+      "station_name": "站名",
+      "station_id": "站號",
+      "dose_rate_uSv_per_hr": "劑量率 (微西弗/小時)",
+      "timestamp_raw": "日期時間 (原始)",
+      "timestamp": "日期時間 (解析)",
+      "longitude": "經度",
+      "latitude": "緯度"
+    }
+  },
+  "power_supply_demand_summary": {
+    "title": "每日供需摘要",
+    "path": "data_clean/power_supply_demand_summary.csv",
+    "columns": {
+      "date": "日期",
+      "net_peak_capacity_mw": "淨尖峰供電能力 (MW)",
+      "peak_load_mw": "尖峰負載 (MW)",
+      "reserve_capacity_mw": "備轉容量 (MW)",
+      "reserve_margin_pct": "備轉容量率 (%)",
+      "industrial_consumption_gwh": "工業用電 (GWh)",
+      "residential_consumption_gwh": "民生用電 (GWh)"
+    }
+  },
+  "power_unit_available_capacity": {
+    "title": "各機組可用容量",
+    "path": "data_clean/power_unit_available_capacity.csv",
+    "columns": {
+      "date": "日期",
+      "unit_name": "機組名稱",
+      "available_capacity_mw": "可用容量 (MW)"
+    }
+  },
+  "solar_feed_in_records": {
+    "title": "太陽光電購電實績",
+    "path": "data_clean/solar_feed_in_records.csv",
+    "columns": {
+      "roc_year": "民國年度",
+      "year": "西元年",
+      "month": "月份",
+      "period": "西元月份",
+      "is_annual_total": "是否為年度總和",
+      "energy_mwh": "購電度數 (MWh)"
+    }
+  },
+  "utility_retail_statistics": {
+    "title": "公用售電業統計",
+    "path": "data_clean/utility_retail_statistics.csv",
+    "columns": {
+      "year": "年度",
+      "lighting_sales_kwh": "電燈售電量 (度)",
+      "power_sales_kwh": "電力售電量 (度)",
+      "total_sales_kwh": "售電量合計 (度)",
+      "lighting_customers": "電燈用戶數 (戶)",
+      "power_customers": "電力用戶數 (戶)",
+      "total_customers": "用戶數合計 (戶)",
+      "lighting_nonbusiness_kwh": "電燈(非營業)售電量 (度)",
+      "lighting_business_kwh": "電燈(營業)售電量 (度)",
+      "lighting_nonbusiness_customers": "電燈(非營業)用戶數 (戶)",
+      "lighting_business_customers": "電燈(營業)用戶數 (戶)",
+      "lighting_avg_price_ntd": "電燈平均單價 (元)",
+      "power_avg_price_ntd": "電力平均單價 (元)",
+      "overall_avg_price_ntd": "平均單價合計 (元)"
+    }
+  }
+}
